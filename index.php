@@ -13,11 +13,7 @@
 
 <!-- TODO: EL CODIGO PRINCIPAL -->
 <main class="container">
-<<<<<<< HEAD
-<h2><i class="fa fa-home"></i> Home         </h2>
-=======
 <h2><i class="fa fa-home"></i> Inicio  </h2>
->>>>>>> 66d8b545db5cb5af2e786ac402da224f21134b13
 <h3>Nuestros servicios</h3>
 <hr/>
 	<table width="100%">
