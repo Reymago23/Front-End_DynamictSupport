@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="es">
 <head>
 	<title>dTS | Inicio</title>
@@ -13,7 +13,7 @@
 
 <!-- TODO: EL CODIGO PRINCIPAL -->
 <main class="container">
-<h2><i class="fa fa-home"></i> Home</h2>
+<h2><i class="fa fa-home"></i> Inicio  </h2>
 <h3>Nuestros servicios</h3>
 <hr/>
 	<table width="100%">
