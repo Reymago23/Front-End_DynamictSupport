@@ -4,16 +4,16 @@
 
 <title>dTS | Mantenimiento</title>
 
-<?php include_once('_scriptsHeader.html'); ?>
+<?php include_once('../_scriptsHeader.html'); ?>
 
 </head>
 <body>
 
-  <?php include_once('_header.html');	?>
-  <?php	include_once('_login.html'); ?>
-  <?php	include_once('_registrarUsuario.html'); ?>
-  <?php	include_once('_menuSocial.html'); ?>
-  <?php	include_once('_registrarUsuario.html'); ?>
+  <?php include_once('../_header.html');	?>
+  <?php	include_once('../_login.html'); ?>
+  <?php	include_once('../_registrarUsuario.html'); ?>
+  <?php	include_once('../_menuSocial.html'); ?>
+  <?php	include_once('../_registrarUsuario.html'); ?>
 
 <!-- TODO EL CODIGO PRINCIPAL -->
 <!-- InstanceBeginEditable name="contenido" -->
@@ -62,7 +62,7 @@
 <div style="width: 100%; height: 100px;"></div>
 </main>
 
-<?php include_once('_footer.html'); ?>
+<?php include_once('../_footer.html'); ?>
 </body>
-<?php include_once('_scriptsFooter.html') ?>
+<?php include_once('../_scriptsFooter.html') ?>
 </html>
