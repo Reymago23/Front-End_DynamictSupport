@@ -13,7 +13,6 @@
   <?php	include_once('../_login.html'); ?>
   <?php	include_once('../_registrarUsuario.html'); ?>
   <?php	include_once('../_menuSocial.html'); ?>
-  <?php	include_once('../_registrarUsuario.html'); ?>
 
 <!-- TODO EL CODIGO PRINCIPAL -->
 <!-- InstanceBeginEditable name="contenido" -->
