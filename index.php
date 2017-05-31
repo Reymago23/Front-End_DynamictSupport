@@ -8,6 +8,7 @@
 <body>
 	<?php include_once('_header.html');	?>
 	<?php	include_once('_login.html'); ?>
+	<?php	include_once('_registrarUsuario.html'); ?>
 	<?php	include_once('_menuSocial.html'); ?>
 	<?php	include_once('_registrarUsuario.html'); ?>
 
