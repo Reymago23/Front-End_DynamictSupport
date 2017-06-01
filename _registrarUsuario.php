@@ -1,6 +1,6 @@
 <html>
 <body>
-<!-- Formulario de login-->
+
 <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 	 <div class="modal-content">
@@ -9,7 +9,9 @@
 			 <h4 class="modal-title"><i class="fa fa-sign-in" aria-hidden="true"></i> Registro de usuario</h4>
 		 </div>
 		 <div class="modal-body">
-			 <form id="signinForm" method="get" class="form-horizontal" action="../Back-End_DynamictSupport/Insert_Usuario.php">
+			 <?php
+			 echo '<form id="signinForm" method="get" class="form-horizontal" action="'.$dirBackend.'/Insert_usuario.php">';
+			  ?>
 				 <div class="form-group">
 					 <label class="col-md-3 control-label">Nombre de Usuario</label>
 					 <div class="col-md-7">
@@ -38,6 +40,6 @@
 	 </div>
 </div>
 </div>
-<!-- FIN Formulario de login-->
+
 </body>
 </html>

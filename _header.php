@@ -1,5 +1,8 @@
 <html>
 <body>
+  <?php
+  include_once('settings.php');
+   ?>
   <div id="navbar-full">
       <div id="navbar">
           <nav class="navbar navbar-ct-blue navbar-fixed-top navbar-transparent" role="navigation">
@@ -13,9 +16,13 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand navbar-brand-logo" href="/WebSiteDTS/Front-End_DynamictSupport/index.php">
+                <?php
+                echo '<a class="navbar-brand navbar-brand-logo" href="'.$dirFrontEnd.'/index.php">';
+                 ?>
                       <div class="logo">
-                      <img src="/WebSiteDTS/Front-End_DynamictSupport/img/DTS-logo.png">
+                        <?php
+                        echo '<img src= '. $dirImg."DTS-logo.png ".'/>';
+                         ?>
                       </div>
                       <div class="brand"> Dynamict Tech Support </div>
                 </a>
@@ -23,7 +30,6 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-
                       <li>
                           <a href="javascript:void(0);" data-toggle="search" class="hidden-xs">
                               <i class="fa fa-search" style="font-size: 35px;" ></i>
@@ -31,7 +37,9 @@
                           </a>
                       </li>
                        <li>
-                          <a href="/WebSiteDTS/Front-End_DynamictSupport/dispositivos.php">
+                         <?php
+                         echo '<a href="'.$dirFrontEnd.'/dispositivos.php">';
+                          ?>
                               <i class="fa fa-power-off" style="font-size: 30px;" aria-hidden="true"></i>
                               <p>Dispositivos</p>
                           </a>
@@ -44,29 +52,40 @@
                               </a>
                             <ul class="dropdown-menu">
                               <li>
-                              <a href="/WebSiteDTS/Front-End_DynamictSupport/servicios/mantenimiento.php">
+                                <?php
+                                echo '<a href="'.$dirServicios.'/mantenimiento.php">';
+                                 ?>
                               <i class="fa fa-medkit" aria-hidden="true"></i>&nbsp; Mantenimiento
                               </a>
                               </li>
                               <li>
-                              <a href="/WebSiteDTS/Front-End_DynamictSupport/servicios/instalacion.html">
+                                <?php
+                                echo '<a href="'.$dirServicios.'/instalacion.php">';
+                                 ?>
                               <i class="fa fa-download" aria-hidden="true"></i>&nbsp; Instalación
                               </a>
                               </li>
                               <li>
-                              <a href="/WebSiteDTS/Front-End_DynamictSupport/servicios/configuracion.html">
+                                <?php
+                                echo '<a href="'.$dirServicios.'/configuracion.php">';
+                                 ?>
                               <i class="fa fa-gear" aria-hidden="true"></i>&nbsp; Configuración
                               </a>
                               </li>
                               <li>
-                              <a href="/WebSiteDTS/Front-End_DynamictSupport/servicios/diagnostico.html">
+                                <?php
+                                echo '<a href="'.$dirServicios.'/diagnostico.php">';
+                                 ?>
                               <i class="fa fa-area-chart" aria-hidden="true"></i>&nbsp; Diagnóstico
                               </a>
                               </li>
                               <li class="divider"></li>
                               <li>
-                              <a href="/WebSiteDTS/Front-End_DynamictSupport/preguntas.php">Preguntas frecuentes</a>
-  							</li>
+                                <?php
+                                echo '<a href="'.$dirServicios.'/preguntas.php">';
+                                 ?>
+                               <i class="fa fa-area-chart" aria-hidden="true"></i>&nbsp;Preguntas frecuentes</a>
+  							               </li>
                             </ul>
                       </li>
 
@@ -77,12 +96,16 @@
                           </a>
                           <ul class="dropdown-menu">
                               <li>
-                              <a href="/WebSiteDTS/Front-End_DynamictSupport/nosotros.php">
+                                <?php
+                                echo '<a href="'.$dirFrontEnd.'/nosotros.php">';
+                                 ?>
                               <i class="fa fa-users" aria-hidden="true"></i>&nbsp; Nosotros
                               </a>
                               </li>
                               <li>
-                              <a href="/WebSiteDTS/Front-End_DynamictSupport/opinion.php">
+                                <?php
+                                echo '<a href="'.$dirFrontEnd.'/opinion.php">';
+                                 ?>
                               <i class="fa fa-commenting-o" aria-hidden="true"></i>&nbsp; Comentarios
                               </a>
                               </li>
@@ -106,8 +129,10 @@
                               </li>
                               <li class="divider"></li>
                               <li>
-                              <a href="/WebSiteDTS/Front-End_DynamictSupport/recuperarcontrasenia.php">Olvide la contraseña</a>
-  							</li>
+                                <?php
+                                echo '<a href="'.$dirFrontEnd.'/recuperarcontrasenia.php">';
+                                 ?>Olvide la contraseña</a>
+  							              </li>
                             </ul>
                       </li>
                       <li class="dropdown">
@@ -117,15 +142,21 @@
                           </a>
                           <ul class="dropdown-menu">
                               <li>
-                              <a href="/WebSiteDTS/Front-End_DynamictSupport/admin/empleado.php">
+                                <?php
+                                echo '<a href="'.$dirAdmin.'/empleado.php">';
+                                 ?>
                               <i class="fa fa-user-o" aria-hidden="true"></i>&nbsp; Empleados
                               </a>
                               </li>
                               <li>
-                              <a href="/WebSiteDTS/Front-End_DynamictSupport/admin/cliente.php">
+                                <?php
+                                echo '<a href="'.$dirAdmin.'/cliente.php">';
+                                 ?>
                               <i class="fa fa-users" aria-hidden="true"></i>&nbsp; Clientes
                               </a>
-                              <a href="/WebSiteDTS/Front-End_DynamictSupport/admin/pregunta.php">
+                              <?php
+                              echo '<a href="'.$dirAdmin.'/pregunta.php">';
+                               ?>
                               <i class="fa fa-commenting-o" aria-hidden="true"></i>&nbsp; Preguntas frecuentes
                               </a>
                               </li>
@@ -143,7 +174,9 @@
           </nav>
          <div class="blurred-container">
 
-              <div class="img-src" style="background-image: url('/WebSiteDTS/Front-End_DynamictSupport/img/servicio-soporte-virtual.jpg')">
+           <?php
+           echo '<div class="img-src" style="background-image: url('.$dirImg.'servicio-soporte-virtual.jpg)">';
+            ?>
               <div style="width: 80%">
              	<p class="bienvenida" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">Bienvenido a la nueva era en la nube</p>
              	</div>

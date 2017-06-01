@@ -81,5 +81,5 @@
 
 <?php include_once('_footer.html'); ?>
 </body>
-<?php include_once('_scriptsFooter.html') ?>
+<?php include_once('_scriptsFooter.php') ?>
 </html>

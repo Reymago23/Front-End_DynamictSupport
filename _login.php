@@ -1,5 +1,6 @@
 <html>
 <body>
+
 <!-- Formulario de login-->
 <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
@@ -9,7 +10,9 @@
 			 <h4 class="modal-title"><i class="fa fa-sign-in" aria-hidden="true"></i> Inicio de Sesión</h4>
 		 </div>
 		 <div class="modal-body">
-			 <form id="loginForm" method="get" class="form-horizontal" action="/BackEnd/login.php">
+			 <?php
+			 echo '<form id="loginForm" method="post" class="form-horizontal" action="'.$dirBackend.'login.php">';
+			  ?>
 				 <div class="form-group">
 					 <label class="col-md-3 control-label">Nombre de Usuario</label>
 					 <div class="col-md-7">
@@ -17,7 +20,7 @@
 					 </div>
 				 </div>
 				 <div class="form-group">
-		 			<label class="col-md-3 control-label">Password</label>
+		 			<label class="col-md-3 control-label">Contreña</label>
 					 <div class="col-md-7">
 						 <input type="password" class="form-control" name="contrasenia" required />
 					 </div>
