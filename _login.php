@@ -31,7 +31,11 @@
 					 </div>
 				 </div>
 				 <div class="divider">
-				 	<a href="#" class="btn-link">Registrarme</a> - <a href="#" class="btn-link">Olvidé la contraseña</a>
+					 <?php
+					 echo '<a href="#" data-toggle="modal" data-target="#signinModal" data-dismiss="modal">Registrarme</a>';
+					 echo " - ";
+					 echo '<a href="'.$dirFrontEnd.'/recuperarcontrasenia.php" class="btn-link">Olvidé la contraseña</a>';
+						?>
 				 </div>
 			 </form>
 		 </div>

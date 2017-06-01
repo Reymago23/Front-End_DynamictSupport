@@ -4,7 +4,7 @@
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>dTS | Asistencia</title>
 
-<?php include_once('../_scriptsHeader.html'); ?>
+<?php include_once('../_scriptsHeader.php'); ?>
 
 </head>
 <body>

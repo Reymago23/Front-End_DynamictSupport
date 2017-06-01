@@ -53,28 +53,28 @@
                             <ul class="dropdown-menu">
                               <li>
                                 <?php
-                                echo '<a href="'.$dirServicios.'/mantenimiento.php">';
+                                echo '<a href="'.$dirServicios.'mantenimiento.php">';
                                  ?>
                               <i class="fa fa-medkit" aria-hidden="true"></i>&nbsp; Mantenimiento
                               </a>
                               </li>
                               <li>
                                 <?php
-                                echo '<a href="'.$dirServicios.'/instalacion.php">';
+                                echo '<a href="'.$dirServicios.'instalacion.php">';
                                  ?>
                               <i class="fa fa-download" aria-hidden="true"></i>&nbsp; Instalación
                               </a>
                               </li>
                               <li>
                                 <?php
-                                echo '<a href="'.$dirServicios.'/configuracion.php">';
+                                echo '<a href="'.$dirServicios.'configuracion.php">';
                                  ?>
                               <i class="fa fa-gear" aria-hidden="true"></i>&nbsp; Configuración
                               </a>
                               </li>
                               <li>
                                 <?php
-                                echo '<a href="'.$dirServicios.'/diagnostico.php">';
+                                echo '<a href="'.$dirServicios.'diagnostico.php">';
                                  ?>
                               <i class="fa fa-area-chart" aria-hidden="true"></i>&nbsp; Diagnóstico
                               </a>
@@ -82,7 +82,7 @@
                               <li class="divider"></li>
                               <li>
                                 <?php
-                                echo '<a href="'.$dirServicios.'/preguntas.php">';
+                                echo '<a href="'.$dirServicios.'preguntas.php">';
                                  ?>
                                <i class="fa fa-area-chart" aria-hidden="true"></i>&nbsp;Preguntas frecuentes</a>
   							               </li>
@@ -131,7 +131,7 @@
                               <li>
                                 <?php
                                 echo '<a href="'.$dirFrontEnd.'/recuperarcontrasenia.php">';
-                                 ?>Olvide la contraseña</a>
+                                 ?>Olvidé la contraseña</a>
   							              </li>
                             </ul>
                       </li>
@@ -143,19 +143,19 @@
                           <ul class="dropdown-menu">
                               <li>
                                 <?php
-                                echo '<a href="'.$dirAdmin.'/empleado.php">';
+                                echo '<a href="'.$dirAdmin.'empleado.php">';
                                  ?>
                               <i class="fa fa-user-o" aria-hidden="true"></i>&nbsp; Empleados
                               </a>
                               </li>
                               <li>
                                 <?php
-                                echo '<a href="'.$dirAdmin.'/cliente.php">';
+                                echo '<a href="'.$dirAdmin.'cliente.php">';
                                  ?>
                               <i class="fa fa-users" aria-hidden="true"></i>&nbsp; Clientes
                               </a>
                               <?php
-                              echo '<a href="'.$dirAdmin.'/pregunta.php">';
+                              echo '<a href="'.$dirAdmin.'pregunta.php">';
                                ?>
                               <i class="fa fa-commenting-o" aria-hidden="true"></i>&nbsp; Preguntas frecuentes
                               </a>

@@ -9,7 +9,7 @@
 </head>
 <body>
 
-  <?php include_once('../settings.php'); ?>
+  <?php require('../settings.php'); ?>
   <?php	include_once('../_header.php'); ?>
 	<?php	include_once('../_login.php'); ?>
 	<?php	include_once('../_registrarUsuario.php'); ?>
@@ -30,7 +30,7 @@
 	<hr>
 	<form name="" method="post" action="#" class="frm-servicio">
 
-<div class="form-control">
+
 	Tipo de mantenimiento:
 	<select name="IdTipo" class="form-control">
 		<option value="1">Software</option>
@@ -48,20 +48,18 @@
 	<input type="time" 	name="IdTiempo" required class="form-control">
 
 	Comentario:
-	<textarea name="Comentario" cols="40" rows="3" maxlength="150" required placeholder="Breve comentario del porque se solicita el mantenimiento..." class="form-control">
-	</textarea>
-
+	<textarea name="Comentario" cols="40" rows="3" maxlength="150" required placeholder="Breve comentario del porque se solicita el mantenimiento..." class="form-control"></textarea>
+<br>
 	<input type="submit" value="Enviar solicitud" class="btn btn-primary">
 	<input type="reset" value="Limpiar" class="btn btn-defatult">
-</div>
+
 </form>
 	<hr>
-	<a href="asistencia.html">Pedir asesoria técnica...</a>
+  <?php
+  echo '<a href="'.$dirServicios.'asistencia.html">Pedir asesoria técnica...</a>';
+   ?>
 
-<!-- InstanceEndEditable -->
-<div style="width: 100%; height: 100px;"></div>
 </main>
-
 <?php include_once('../_footer.html'); ?>
 </body>
 <?php include_once('../_scriptsFooter.php') ?>

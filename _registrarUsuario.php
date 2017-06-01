@@ -25,7 +25,7 @@
 					 </div>
 				 </div>
 				 <div class="form-group">
-		 			<label class="col-md-3 control-label">Password</label>
+		 			<label class="col-md-3 control-label">Contraseña</label>
 					 <div class="col-md-7">
 						 <input type="password" class="form-control" name="contrasenia" required />
 					 </div>
@@ -34,6 +34,13 @@
 					 <div class="col-md-5 col-md-offset-3">
 						 <button type="submit" class="btn btn-success">Registrarse</button>
 					 </div>
+				 </div>
+				 <div class="divider">
+					 <?php
+					 echo '<a href="#" data-toggle="modal" data-target="#loginModal" data-dismiss="modal">Iniciar sesión</a>';
+					 echo " - ";
+					 echo '<a href="'.$dirFrontEnd.'/recuperarcontrasenia.php" class="btn-link">Olvidé la contraseña</a>';
+						?>
 				 </div>
 			 </form>
 		 </div>
